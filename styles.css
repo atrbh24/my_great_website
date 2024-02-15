@@ -1,0 +1,38 @@
+*{
+    background-color: black;
+}
+
+h1,h2{
+    font-family:fantasy;
+    color: darkgray;
+}
+
+/* effect for the clickable images, to give borders
+applied for the elements that are named class=".clickable-image"  */
+    .clickable-image {
+        border: 3px solid transparent; /* Initially transparent border */
+        transition: border-color 0.3s;
+    }
+
+    .clickable-image:hover {
+    border-color: red; /* Change border color to red on hover */
+    }
+
+
+/* this is a style applied to only a single page, 
+this page has an ID given to it, and the css sheet is linked in the page header */
+    #halah-page * {
+        color: antiquewhite;
+        font-family:fantasy;
+        font-size: large;
+        background: #000;
+            }
+    
+            /* this is to apply the hover affect on the halah page */
+        #halah-img { 
+        border: 3px solid transparent; /* Initially transparent border */
+        transition: border-color 0.3s;
+        }
+        #halah-img:hover {
+            border-color:bisque; /* Change border color to red on hover */
+            }

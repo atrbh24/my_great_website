@@ -1,4 +1,5 @@
-<!DOCTYPE html> <!-- document typ is the version of html, it needs to be declared at the first 
+<!DOCTYPE html> 
+<!-- document typ is the version of html, it needs to be declared at the first 
 line for the browser to see it-->
 
 <html lang="en">  <!-- html tag is the root element and its required toom atricvut -->
@@ -6,34 +7,12 @@ line for the browser to see it-->
     <head>
         <title>?</title>
         <meta charset="UTF-8">
-
-        <style>
-            *{
-                font-family:fantasy;
-                background-color: black;
-            }
-            
-            /* effect for the clickable images, to give borders
-            applied for the elements that are named class=".clickable-image"  */
-            .clickable-image {
-                border: 3px solid transparent; /* Initially transparent border */
-                transition: border-color 0.3s;
-            }
-
-            .clickable-image:hover {
-            border-color: red; /* Change border color to red on hover */
-        }
-        
-        </style>
+        <!-- this is basically #inclue the css file <style> ... </style> -->
+        <link rel="stylesheet" href="./styles.css">
     </head>
 
-
-
-
-
-<!--                                                                             -->
     <body>
-        <h1 style="color: darkgray;"> Here should be a great word about how great this website is and how much i love and spent time with these 
+        <h1> Here should be a great word about how great this website is and how much i love and spent time with these 
             songs driving, learning, studying or working out.
         </h1>
     
@@ -50,16 +29,9 @@ line for the browser to see it-->
             
         <!-- here the iframe thing brought a spotify api widget to my html!, nothing here its already styled and ready
         to use! -->
-        <h2 style="color: darkgray;">Special playlist </h2>
+        <h2>Special playlist </h2>
         <iframe src="https://open.spotify.com/embed/playlist/1xpCVKRXCn8R1SmAPuBVif?si=e9f64f20014e4514" width="1000" height="600" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
     </body>
-<!--                                                                             -->
-
-
-
-
-
-
 
 </html>
